@@ -163,6 +163,7 @@
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="tap1Button:" destination="Zej-IP-cCs" eventType="touchUpInside" id="Ge6-qi-qhc"/>
+                                    <action selector="tap1Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="qg5-OU-NaU"/>
                                     <action selector="tap1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wNN-Sy-dqV"/>
                                 </connections>
                             </button>
@@ -172,6 +173,7 @@
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="tap2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ad3-2M-CKd"/>
+                                    <action selector="tap2Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="dvO-LO-P7c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CaD-MC-yWv">
@@ -180,6 +182,7 @@
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="tap3Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFT-wg-ADc"/>
+                                    <action selector="tap3Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="ao6-j3-cmI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tbn-Qx-r6R">
@@ -187,6 +190,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4"/>
                                 <connections>
+                                    <action selector="tap4Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="Wa0-9A-vTr"/>
                                     <action selector="tap4Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apd-gR-eDa"/>
                                 </connections>
                             </button>
@@ -196,6 +200,7 @@
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="tap5Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NE3-AX-F0D"/>
+                                    <action selector="tap5Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="fwm-zF-mos"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XpK-i4-wit">
@@ -203,6 +208,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6"/>
                                 <connections>
+                                    <action selector="tap6Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="Rfy-bP-BX9"/>
                                     <action selector="tap6Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XfW-Iz-ghn"/>
                                 </connections>
                             </button>
@@ -211,6 +217,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7"/>
                                 <connections>
+                                    <action selector="tap7Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="BcG-Ne-vaD"/>
                                     <action selector="tap7Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ydj-J8-bdc"/>
                                 </connections>
                             </button>
@@ -220,6 +227,7 @@
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="tap8Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J5q-dz-wyN"/>
+                                    <action selector="tap8Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="wiz-H8-iAb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="At2-zP-Lvs">
@@ -228,6 +236,7 @@
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="tap9Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1k6-q5-h6m"/>
+                                    <action selector="tap9Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="sRC-Xw-oWL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2V-0W-d7h">
@@ -235,6 +244,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0"/>
                                 <connections>
+                                    <action selector="tan0Button:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="WHe-UB-js6"/>
                                     <action selector="tan0Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zme-ba-7B3"/>
                                 </connections>
                             </button>
@@ -248,6 +258,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
                                 <connections>
+                                    <action selector="tapClearButton:" destination="7Tb-OB-PcV" eventType="touchUpInside" id="Hn6-tL-jYd"/>
                                     <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eil-Cf-GIQ"/>
                                 </connections>
                             </button>
@@ -391,6 +402,29 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="807" y="154"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ODQ-8K-usr">
+            <objects>
+                <viewController id="wf2-7h-4en" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H4N-41-NKW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="割引%を入力をしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HkA-vX-6o2">
+                                <rect key="frame" x="15" y="25" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N6x-t3-sx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1615" y="153"/>
         </scene>
     </scenes>
 </document>
