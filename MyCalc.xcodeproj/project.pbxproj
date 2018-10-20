@@ -12,6 +12,7 @@
 		2D5A305321797D7400ADE249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A305121797D7400ADE249 /* Main.storyboard */; };
 		2D5A305521797D7600ADE249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A305421797D7600ADE249 /* Assets.xcassets */; };
 		2D5A305821797D7600ADE249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A305621797D7600ADE249 /* LaunchScreen.storyboard */; };
+		2D66BB8C217B75150081F9C5 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D66BB8B217B75150081F9C5 /* PercentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2D5A305421797D7600ADE249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5A305721797D7600ADE249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5A305921797D7600ADE249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D66BB8B217B75150081F9C5 /* PercentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2D5A304D21797D7400ADE249 /* AppDelegate.swift */,
 				2D5A304F21797D7400ADE249 /* ViewController.swift */,
 				2D5A305121797D7400ADE249 /* Main.storyboard */,
+				2D66BB8B217B75150081F9C5 /* PercentViewController.swift */,
 				2D5A305421797D7600ADE249 /* Assets.xcassets */,
 				2D5A305621797D7600ADE249 /* LaunchScreen.storyboard */,
 				2D5A305921797D7600ADE249 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				2D5A305021797D7400ADE249 /* ViewController.swift in Sources */,
 				2D5A304E21797D7400ADE249 /* AppDelegate.swift in Sources */,
+				2D66BB8C217B75150081F9C5 /* PercentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
