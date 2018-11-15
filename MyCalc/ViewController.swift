@@ -97,5 +97,10 @@ class ViewController: UIViewController {
         priceField.text = "0"
     }
     
+    // 最後の画面から戻ってきた時の処理
+    @IBAction func restart(_ segue: UIStoryboardSegue) {
+        priceField.text = "0"   // 金額フィールドを0でクリア
+    }
+    
 }
 

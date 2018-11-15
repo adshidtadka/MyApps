@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="wf2-7h-4en">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -58,6 +58,9 @@
                                 <rect key="frame" x="15" y="370" width="290" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="割引%を入力する"/>
+                                <connections>
+                                    <segue destination="7Tb-OB-PcV" kind="modal" id="0fq-dx-3fX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3cp-6t-RyY">
                                 <rect key="frame" x="110" y="230" width="100" height="60"/>
@@ -252,6 +255,9 @@
                                 <rect key="frame" x="15" y="370" width="290" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="計算する"/>
+                                <connections>
+                                    <segue destination="wf2-7h-4en" kind="modal" id="2BE-l2-s1U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JBg-1w-je5">
                                 <rect key="frame" x="210" y="290" width="100" height="60"/>
@@ -429,15 +435,20 @@
                                 <rect key="frame" x="15" y="94" width="290" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="他の計算をする"/>
+                                <connections>
+                                    <segue destination="DVj-On-g6C" kind="unwind" unwindAction="restart:" id="2wB-Gx-2Ke"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0Nb-Rh-WFp"/>
                     <connections>
                         <outlet property="resultField" destination="me8-aZ-ywN" id="UgU-YO-6bY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N6x-t3-sx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="DVj-On-g6C" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1615" y="153"/>
         </scene>
