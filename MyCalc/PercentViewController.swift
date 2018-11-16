@@ -95,6 +95,20 @@ class PercentViewController: UIViewController {
     @IBAction func tapClearButton(_ sender: Any) {
         percentField.text = "0"
     }
+    
+    // 計算するボタンがタップされて, 次の画面に移動する際の前処理
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // 次の画面を取り出す
+        let viewController = segue.destination as! ResultViewController
+        
+        // 次の画面に現在保持している金額を設定
+        viewController.price = price
+        
+        if let percent = Int(percentField.text!) {
+            viewController.percent = percent
+        }
+    }
 
     /*
     // MARK: - Navigation
